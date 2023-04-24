@@ -1,0 +1,85 @@
+body {
+    background-color:rgb(251, 251, 255);
+    height: 100%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background: linear-gradient(132deg, rgb(2, 108, 223) 0.00%, rgb(0, 246, 253) 100.00%);
+    padding: 40px;
+    margin: 0px;
+    color: linear-gradient(132deg, rgb(251, 251, 255) 0.00%, rgb(215, 223, 252) 100.00%);
+}
+
+.navbar-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: x-large;
+    display: block;
+}
+
+.navbar-links li a:hover {
+    color: rgb(248, 249, 248);
+    outline: none;
+    cursor: pointer;
+}
+
+#body {
+    text-align: center;
+}
+
+.intro {
+    list-style-type: none;
+}
+
+.skills {
+    list-style-type: none;
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.intro {
+padding: 300px;
+margin: 0px;
+font-size: 50px;
+}
+
+.info {
+    text-align: center;
+    list-style-type: none;
+    font-size: x-large;
+    background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+    padding: 40px;
+    margin: 0px;
+}
+
+#body {
+    background-image: url('moon.png');
+    color: white !important;
+}
+
+.container {
+    padding: 40px;
+}
+
+form {
+    text-align: center;
+    border: 10px;
+}
